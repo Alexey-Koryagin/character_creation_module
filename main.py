@@ -38,7 +38,7 @@ def special(char_name, char_class):
     """
     if char_class == 'warrior':
         return (f'{char_name} применил специальное '
-                'умение «Выносливость {80 + 25}»')
+                f'умение «Выносливость {80 + 25}»')
     if char_class == 'mage':
         return (f'{char_name} применил специальное умение «Атака {5 + 40}»')
     if char_class == 'healer':
